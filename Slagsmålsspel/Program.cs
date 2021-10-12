@@ -11,7 +11,7 @@ ToolBox.WriteCentered("Press Enter to punch player2.");
 Console.ReadLine();
 int damage = generator.Next(10, 40);
 hp2 = hp2 - damage;
-Console.WriteLine($"You punched player2 and did {damage} damage. player2 now has {hp2} hp left.");
+ToolBox.WriteCentered($"You punched player2 and did {damage} damage. player2 now has {hp2} hp left.");
 
 
 
